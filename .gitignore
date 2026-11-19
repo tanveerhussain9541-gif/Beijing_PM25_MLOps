@@ -1,0 +1,16 @@
+# Local Python environment and caches
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Secrets and local settings
+.env
+.env.*
+!.env.example
+# Large data and generated model artifacts
+data/raw/
+data/processed/
+models/
+# Generated reports and editor settings
+reports/*.png
+.vscode/
