@@ -1,0 +1,33 @@
+Practical 03: Aotizhongxin Data Quality Report
+Original rows: 35064
+Cleaned rows: 35064
+Exact duplicate rows in original: 0
+Invalid original timestamps: 0
+Repeated timestamps remaining: 0
+Missing hourly timestamps: 0
+
+Original missing counts:
+CO           1776
+O3           1719
+NO2          1023
+SO2           935
+PM2.5         925
+PM10          718
+wd             81
+RAIN           20
+PRES           20
+DEWP           20
+TEMP           20
+WSPM           14
+month           0
+No              0
+year            0
+hour            0
+day             0
+station         0
+timestamp       0
+
+Negative pollutant counts:
+{'PM2.5': 0, 'PM10': 0, 'SO2': 0, 'NO2': 0, 'CO': 0, 'O3': 0}
+
+Cleaning policy: no missing-value imputation performed.

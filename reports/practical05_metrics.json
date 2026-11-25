@@ -1,0 +1,19 @@
+{
+  "features": [
+    "PM2.5",
+    "pm25_lag1",
+    "pm25_lag2",
+    "hour_of_day"
+  ],
+  "target": "target_pm25_next_hour",
+  "selected_on_validation": "ridge",
+  "validation_ridge_mae": 9.849514678929058,
+  "validation_persistence_mae": 10.122489560548816,
+  "validation_ridge_rmse": 19.33296274178028,
+  "validation_persistence_rmse": 20.605528161473632,
+  "held_out_test_mae": 10.685060005820423,
+  "held_out_test_rmse": 19.75034579660326,
+  "train_rows": 23472,
+  "validation_rows": 5029,
+  "test_rows": 5031
+}

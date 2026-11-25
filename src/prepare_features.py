@@ -13,6 +13,7 @@ print("Loaded rows:", len(df))
 print("Columns:", df.columns.tolist())
 
 
+
 if "timestamp" in df.columns:
     df["timestamp"] = pd.to_datetime(df["timestamp"], errors="coerce")
 else:

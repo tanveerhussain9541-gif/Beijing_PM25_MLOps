@@ -13,3 +13,9 @@ Create and activate .venv, then install requirements.txt.
 ## Progress
 Practicals 01-05: work produced locally, if completed.
 Practical 06: Git repository initialized and commits verified.
+## Reproducibility
+Git records code and documentation history.
+DVC will later track datasets and model artifacts.
+git add README.md
+git commit -m "Explain reproducibility plan"
+git log --oneline -3

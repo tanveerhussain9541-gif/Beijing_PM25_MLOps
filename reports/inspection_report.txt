@@ -1,0 +1,30 @@
+Shape: (35064, 19)
+Missing values by column:
+No            0
+year          0
+month         0
+day           0
+hour          0
+PM2.5       925
+PM10        718
+SO2         935
+NO2        1023
+CO         1776
+O3         1719
+TEMP         20
+PRES         20
+DEWP         20
+RAIN         20
+wd           81
+WSPM         14
+station       0
+
+PM2.5 summary:
+count    34139.000000
+mean        82.773611
+std         82.135694
+min          3.000000
+25%         22.000000
+50%         58.000000
+75%        114.000000
+max        898.000000
